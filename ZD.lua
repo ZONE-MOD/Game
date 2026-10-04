@@ -2118,7 +2118,6 @@ function _G.InitModMenuTab()
             Category = {
                 { Key = "Cat_ESP", Text = 999001, Stack = StackESP },
                 { Key = "Cat_Items", Text = 999002, Stack = StackItems },
-                { Key = "Cat_AimbotV2", Text = 999003, Stack = StackAimbotV2 },
                 { Key = "Cat_Combat", Text = 999004, Stack = StackCombat },
                 { Key = "Cat_Skin", Text = 999005, Stack = StackSkin }
             }

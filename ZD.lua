@@ -5546,7 +5546,7 @@ end)()
 
 
 local ZONE_MOD_KEY_GATE = (function()
-    local GATE_KEY = "ZD-ZONE-1122"
+    local GATE_KEY = "ZDMODVIP"
     local Gate = {
         unlocked = (_G.ZONE_MOD_SAVED_KEY == GATE_KEY),
         lastUIError = nil

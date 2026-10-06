@@ -2500,7 +2500,7 @@ _G.AimbotV2 = function()
         if fovVal > 35 then fovVal = 35 end
 
         
-        local speedVal = 20
+        local speedVal = 70
         local boneName = "spine_03" 
         local maxDistCm = 7000
         local useVisCheck = true

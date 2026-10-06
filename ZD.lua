@@ -1425,7 +1425,7 @@ function _G.InitModMenuTab()
         [999000] = T("@ZONE_MOD - ZD V4 ♝"),
         [999001] = T("♛ESP PLAYER♛"),
         [999002] = T("♛ESP ITEMS♛"),
-        [999003] = T("♛AIM MENU♛"),
+        [999003] = T("♛AIM MENU (BAN)♛"),
         [999004] = T("♛SPICHIAL MENU♛"),
         [999005] = T("♛SKIN MOD♛"),
         [999006] = T("E")
@@ -1636,7 +1636,7 @@ function _G.InitModMenuTab()
             {
                 Key = "ModMenu_AimbotV2_Enable",
                 UI = AliasMap.Switcher,
-                Text = T(" AUTO AIM 70M SAFE"),
+                Text = T(" AUTO AIM SAVAGE 999%"),
                 GetFunc = function()
                     return _G.LexusConfig.AimTouchEnable
                 end,
@@ -1648,7 +1648,7 @@ function _G.InitModMenuTab()
             {
                 Key = "ModMenu_AimbotV2_FOV",
                 UI = AliasMap.Slider,
-                Text = T("AIM FOV ( 1 TO 45 SAFE )"),
+                Text = T("AIM FOV ( 1 TO 100 )"),
                 MinValue = 1,
                 MaxValue = 100,
                 min = 1,

@@ -5378,6 +5378,7 @@ end)()
 
 
 local ZONE_MOD_KEY_GATE = (function()
+    local GATE_KEY = "ZDMODVIP"
     local GATE_KEY = "ZD-ZONE-1122"
     local Gate = {
         unlocked = (_G.ZONE_MOD_SAVED_KEY == GATE_KEY),
